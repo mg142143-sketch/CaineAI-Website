@@ -1,1 +1,61 @@
+body {
 
+background:
+radial-gradient(circle,#ff00ff,#000);
+
+font-family:Arial;
+color:white;
+
+display:flex;
+justify-content:center;
+
+}
+
+
+.container {
+
+width:450px;
+text-align:center;
+
+}
+
+
+.caine img {
+
+width:220px;
+border-radius:50%;
+
+}
+
+
+#chat {
+
+height:400px;
+overflow:auto;
+
+background:#111;
+
+border:3px solid white;
+
+padding:15px;
+
+border-radius:20px;
+
+}
+
+
+input {
+
+width:70%;
+padding:12px;
+
+}
+
+
+button {
+
+padding:12px;
+
+cursor:pointer;
+
+}
